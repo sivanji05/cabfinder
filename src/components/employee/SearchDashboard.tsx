@@ -105,7 +105,7 @@ export const SearchDashboard: React.FC<SearchDashboardProps> = ({
             Find Cab Driver in Seconds
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 mt-1 sm:mt-1.5 leading-relaxed">
-            Enter the last 4 digits of the cab number (e.g. 3545) to call the assigned driver in one tap.
+            Enter the last 4 digits of the cab number (e.g. 5553) to call the assigned driver in one tap.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export const SearchDashboard: React.FC<SearchDashboardProps> = ({
             maxLength={4}
             value={searchTerm}
             onChange={handleInputChange}
-            placeholder="4-digit cab no (e.g. 3545)"
+            placeholder="4-digit cab no (e.g. 5553)"
             className="w-full min-h-[54px] pl-11 sm:pl-14 pr-14 py-3.5 sm:py-5 text-lg sm:text-xl font-bold font-sans tabular-nums tracking-wider rounded-2xl border-2 border-slate-200 bg-slate-50/50 hover:bg-white focus:bg-white focus:border-emerald-600 focus:outline-none transition-all placeholder:font-sans placeholder:text-sm sm:placeholder:text-base placeholder:font-normal placeholder:tracking-normal placeholder:text-slate-400"
           />
 
